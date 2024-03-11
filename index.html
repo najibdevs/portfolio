@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!----- header ----->
+    <header class="header">
+      <nav>
+        <div class="logo">
+          <a href="#">najibdevs</a>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="#index.html/about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!----- hero ----->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-main">
+                    <div class="hero-text">
+                        <h1>Front-End Software Developer 👋🏽</h1>
+                        
+                        <p>Hi, I'm Najib Iman. A passionate Front-End Software Developer based in London, UK. 📍</p>
+                        <span>
+                            <a aria-label="linkedin" rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/najibdevs/"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg></a>
+                            <a aria-label="github" rel="noreferrer" target="_blank" href="https://github.com/najibdevs"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg></a>
+                        </span>
+                    </div>
+                    <div class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!----- about ----->
+    <section class="about">
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          I am 21 year old aspiring software engineer based in London. The main
+          reason i started coding is because i always had a passion for it as a
+          child, building cool ass projects and me being able to make money from
+          that is a dream come true
+        </p>
+      </div>
+    </section>
+
+    <!----- projects ----->
+    <section class="projects">
+      <h2>Projects</h2>
+      <div class="project-content">
+        <img src="images/nba.png" />
+        <div class="text-box">
+          <h3>NBA Landing Page</h3>
+          <p>
+            This landing page was crafted with precision using HTML and CSS. It
+            has been meticulously designed for optimal display on desktop
+            &mobile interfaces, offering a visually engaging and interactive
+            experience.
+          </p>
+          <div class="flex">
+            <a href="https://github.com/najibdevs/nba-landing-page" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>            
+            <button class="project-btn"><a href="https://nba-landing-page.vercel.app/" target="_blank">Click here to view</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-content">
+        <div class="text-box">
+          <h3>Column Card</h3>
+          <p>
+            This landing page was crafted with precision using HTML and CSS. It
+            has been meticulously designed for optimal display on desktop
+            &mobile interfaces, offering a visually engaging and interactive
+            experience.
+          </p>
+          <div class="flex">
+            <a href="https://github.com/najibdevs/3-column-card" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a> 
+            <button class="project-btn"><a href="https://3-column-card-alpha.vercel.app/" target="_blank">Click here to view</a></button>
+          </div>
+        </div>
+        <img src="images/column-card.png" />
+      </div>
+    </section>
+
+    <!----- contact ----->
+    <section class="contact">
+      <div class="contact-content">
+        <h3>Get In Touch</h3>
+        <label>Name: </label>
+        <input type="text" placeholder="Enter your name...">
+        
+        <label>Email: </label>
+        <input type="email" placeholder="email@example.com">
+
+        <input type="submit">
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
